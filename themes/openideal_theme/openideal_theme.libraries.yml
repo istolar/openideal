@@ -29,3 +29,12 @@ tour:
   dependencies:
     - tour/tour
     - core/js-cookie
+
+underliner:
+  version: VERSION
+  js:
+    js/underliner.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/jquery.once

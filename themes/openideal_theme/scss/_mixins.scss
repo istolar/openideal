@@ -27,10 +27,12 @@ $value in $theme-colors {
     &:hover {
         background-color: $active-color;
         text-decoration: none;
+        transform: scale(1.005);
     }
     &:active {
         transform: scale(0.9);
         background-color: $active-color;
         text-decoration: none;
+        transform: scale(1.005);
     }
 }
