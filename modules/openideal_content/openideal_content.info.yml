@@ -8,3 +8,4 @@ package: 'OpenideaL'
 
 dependencies:
   - default_content:default_content
+  - config_pages:config_pages

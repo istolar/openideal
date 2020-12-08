@@ -10,3 +10,4 @@ dependencies:
   - openideal_user:openideal_user
   - drupal:image
   - drupal:text
+  - block_content:block_content

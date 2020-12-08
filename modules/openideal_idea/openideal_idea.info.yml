@@ -6,8 +6,16 @@ core_version_requirement: ^8 || ^9
 package: 'OpenideaL'
 
 dependencies:
-  - rrssb:rrssb
+  - drupal:block
   - drupal:content_moderation
-  - drupal:workflows
-  - group:group
+  - drupal:history
+  - drupal:layout_builder
   - drupal:node
+  - drupal:image
+  - drupal:views
+  - drupal:workflows
+  - flag:flag
+  - group:group
+  - gnode:gnode
+  - group_roles_management:group_roles_management
+  - rrssb:rrssb
