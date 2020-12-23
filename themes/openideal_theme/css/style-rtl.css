@@ -13636,11 +13636,11 @@ nav.tabs {
     .site-navigation--add-idea a {
       padding: 9.5px 1.3em;
       border-radius: 25px;
-      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
       background-color: #27C0FF;
       color: #fff;
       font-weight: bold;
@@ -13925,11 +13925,11 @@ nav.tabs {
 
 .button--primary {
   border-radius: 25px;
-  -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-  -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+  -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+  transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+  -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+  transition: background-color 0.5s ease-in-out, transform .5s;
+  transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
   background-color: #1294ca;
   color: #fff;
   font-weight: bold; }
@@ -13951,11 +13951,11 @@ nav.tabs {
 
 .button--secondary {
   border-radius: 25px;
-  -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-  -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+  -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+  transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+  -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+  transition: background-color 0.5s ease-in-out, transform .5s;
+  transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
   background-color: #27C0FF;
   color: #fff;
   font-weight: bold; }
@@ -14030,11 +14030,11 @@ nav.tabs {
 .form-actions input {
   margin-bottom: 6px;
   border-radius: 25px;
-  -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-  -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+  -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+  transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+  -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+  transition: background-color 0.5s ease-in-out, transform .5s;
+  transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
   background-color: #1294ca;
   color: #fff;
   font-weight: bold; }
@@ -14145,11 +14145,11 @@ nav.tabs {
     margin-bottom: 24px; }
     .comments--header__add-comment-btn {
       border-radius: 25px;
-      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
       background-color: transparent;
       color: #fff;
       font-weight: bold;
@@ -14271,11 +14271,11 @@ nav.tabs {
       text-transform: uppercase;
       font-size: inherit;
       border-radius: 25px;
-      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
       background-color: #1294ca;
       color: #fff;
       font-weight: bold;
@@ -14398,11 +14398,11 @@ nav.tabs {
     display: flex; }
     .node--view-mode-full .block-field-blocknodearticlefield-tags .field__items li {
       border-radius: 25px;
-      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
       background-color: #fff;
       color: #fff;
       font-weight: bold;
@@ -14491,11 +14491,11 @@ nav.tabs {
   .node--view-mode-full .two-columns-challenge-ideas a {
     padding: 15px 70px;
     border-radius: 25px;
-    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
     background-color: #27C0FF;
     color: #fff;
     font-weight: bold;
@@ -14669,11 +14669,11 @@ nav.tabs {
         font-size: 0.9375rem;
         margin-bottom: 49px;
         border-radius: 25px;
-        -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-        transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-        -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-        transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-        transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+        -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+        transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+        -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+        transition: background-color 0.5s ease-in-out, transform .5s;
+        transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
         background-color: #1294ca;
         color: #fff;
         font-weight: bold;
@@ -14712,11 +14712,11 @@ nav.tabs {
                   flex-basis: 100%;
           font-size: 0.9375rem;
           border-radius: 25px;
-          -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-          transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-          -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-          transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-          transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+          -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+          transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+          -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+          transition: background-color 0.5s ease-in-out, transform .5s;
+          transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
           background-color: #27C0FF;
           color: #fff;
           font-weight: bold; }
@@ -14806,11 +14806,11 @@ nav.tabs {
   .block-openideal-idea-tags-block .list-group-item {
     margin-bottom: 5px;
     border-radius: 25px;
-    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
     background-color: #fff;
     color: #fff;
     font-weight: bold;
@@ -15722,11 +15722,11 @@ nav.tabs {
         -ms-flex-align: center;
             align-items: center;
     border-radius: 25px;
-    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
     background-color: #1294ca;
     color: #fff;
     font-weight: bold;
@@ -15783,11 +15783,11 @@ nav.tabs {
         -ms-flex-align: center;
             align-items: center;
     border-radius: 25px;
-    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
     background-color: #1294ca;
     color: #fff;
     font-weight: bold;
@@ -16010,11 +16010,11 @@ nav.tabs {
     .user-register-form .form-actions input {
       border-width: 0;
       border-radius: 25px;
-      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
       background-color: #27C0FF;
       color: #fff;
       font-weight: bold; }
@@ -16085,11 +16085,11 @@ nav.tabs {
   padding-left: 0; }
   .node--edit-form--main input[type="submit"] {
     border-radius: 25px;
-    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
     background-color: transparent;
     color: #fff;
     font-weight: bold;
@@ -16124,11 +16124,11 @@ nav.tabs {
     padding: 1px 14px;
     font-size: 16px;
     border-radius: 25px;
-    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
     background-color: #1294ca;
     color: #fff;
     font-weight: bold; }
@@ -16158,11 +16158,11 @@ nav.tabs {
       height: unset;
       font-size: 14px;
       border-radius: 25px;
-      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
       background-color: #1294ca;
       color: #fff;
       font-weight: bold; }
@@ -16208,11 +16208,11 @@ nav.tabs {
   .node--edit-form .field--widget-moderation-state-buttons > div .form-control:disabled,
   .node--edit-form .field--widget-moderation-state-buttons > div .form-control[readonly] {
     border-radius: 25px;
-    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
     background-color: #1294ca;
     color: #fff;
     font-weight: bold; }
@@ -16255,11 +16255,11 @@ nav.tabs {
       height: unset;
       margin-left: 10px;
       border-radius: 25px;
-      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-      -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-      transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+      -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+      -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s;
+      transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
       background-color: #1294ca;
       color: #fff;
       font-weight: bold; }
@@ -16593,11 +16593,11 @@ nav.tabs {
     font-size: 0; }
   .view-frontpage .view-filters .form-row .frontpage-add-idea-button {
     border-radius: 25px;
-    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-    transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+    -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s;
+    transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
     background-color: #27C0FF;
     color: #fff;
     font-weight: bold;
@@ -17333,11 +17333,11 @@ nav.tabs {
 
 .openideal-statistics-date-select-form .form-submit {
   border-radius: 25px;
-  -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-  -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+  -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+  transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+  -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+  transition: background-color 0.5s ease-in-out, transform .5s;
+  transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
   background-color: #1294ca;
   color: #fff;
   font-weight: bold;
@@ -17517,11 +17517,11 @@ nav.tabs {
       -ms-flex-preferred-size: 10%;
           flex-basis: 10%;
   border-radius: 25px;
-  -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, -webkit-transform 0.4s ease-in-out;
-  -o-transition: background-color 0.5s ease-in-out, -o-transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out;
-  transition: background-color 0.5s ease-in-out, transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+  -webkit-transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+  transition: background-color 0.5s ease-in-out, -webkit-transform .5s;
+  -o-transition: background-color 0.5s ease-in-out, -o-transform .5s;
+  transition: background-color 0.5s ease-in-out, transform .5s;
+  transition: background-color 0.5s ease-in-out, transform .5s, -webkit-transform .5s, -o-transform .5s;
   background-color: #1294ca;
   color: #fff;
   font-weight: bold; }
