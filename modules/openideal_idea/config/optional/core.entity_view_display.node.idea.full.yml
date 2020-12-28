@@ -18,6 +18,7 @@ dependencies:
     - field.field.node.idea.field_overall_score
     - node.type.idea
     - views.view.followers
+    - views.view.ideas
   module:
     - comment
     - file
@@ -25,6 +26,7 @@ dependencies:
     - layout_builder
     - layout_discovery
     - metatag
+    - openideal_discussion
     - openideal_idea
     - openideal_slideshow
     - openideal_statistics
@@ -247,6 +249,72 @@ third_party_settings:
                 view_mode: view_mode
             additional: {  }
             weight: 14
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+          layout_builder_styles_style:
+            author: 0
+            user_compact: 0
+            user_profile: 0
+            user_profile_top: 0
+        components:
+          98279087-e79c-45bf-8428-07c9bc822434:
+            uuid: 98279087-e79c-45bf-8428-07c9bc822434
+            region: content
+            configuration:
+              id: openidel_discussion_add
+              label: 'Add disscusion block'
+              provider: openideal_discussion
+              label_display: '0'
+              context_mapping:
+                node: layout_builder.entity
+            additional:
+              visibility:
+                493d2ff4-1b04-4596-b396-e81c61b58bc6:
+                  id: openideal_discussion_entity_in_state
+                  states:
+                    ex: ex
+                    needs_work: needs_work
+                    approved: approved
+                    postponed: postponed
+                    launched: launched
+                    rejected: rejected
+                  negate: 0
+                  uuid: 493d2ff4-1b04-4596-b396-e81c61b58bc6
+                  context_mapping:
+                    node: layout_builder.entity
+              visibility_operator: and
+            weight: 0
+          c7c3e2b3-623a-427d-b3ac-478baf6a5691:
+            uuid: c7c3e2b3-623a-427d-b3ac-478baf6a5691
+            region: content
+            configuration:
+              id: 'views_block:ideas-idea_discussions_block'
+              label: ''
+              provider: views
+              label_display: '0'
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
+            additional:
+              visibility:
+                a0f3e645-fcf9-48f5-b52d-ec1489a14233:
+                  id: openideal_discussion_entity_in_state
+                  states:
+                    ex: ex
+                    needs_work: needs_work
+                    approved: approved
+                    postponed: postponed
+                    launched: launched
+                    rejected: rejected
+                  negate: 0
+                  uuid: a0f3e645-fcf9-48f5-b52d-ec1489a14233
+                  context_mapping:
+                    node: layout_builder.entity
+              visibility_operator: and
+            weight: 1
         third_party_settings: {  }
       -
         layout_id: layout_onecol

@@ -11,7 +11,7 @@ use Drupal\node\NodeInterface;
 use Drupal\statistics\NodeStatisticsDatabaseStorage;
 
 /**
- * Class OpenidealHelper.
+ * Provides openideal helper service.
  */
 class OpenidealHelper {
 
@@ -80,10 +80,10 @@ class OpenidealHelper {
    * @param \Drupal\node\NodeInterface $node
    *   Node.
    *
-   * @return \Drupal\group\Entity\Group
-   *   Group.
+   * @return \Drupal\group\Entity\Group|false
+   *   Group or false in case if group couldn't be found.
    */
-  public function getGroupByNode(NodeInterface $node) {
+  public function getGroupFromNode(NodeInterface $node) {
     // Get the group_content - gnode.
     $group_contents = $this->entityTypeManager
       ->getStorage('group_content')
@@ -111,7 +111,7 @@ class OpenidealHelper {
    *   Return group member or false.
    */
   public function getGroupMember(AccountInterface $account, NodeInterface $node) {
-    if ($group = $this->getGroupByNode($node)) {
+    if ($group = $this->getGroupFromNode($node)) {
       return $this->groupMembershipLoader->load($group, $account);
     }
     return FALSE;

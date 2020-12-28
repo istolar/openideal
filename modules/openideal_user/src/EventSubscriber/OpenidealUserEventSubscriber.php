@@ -21,7 +21,7 @@ use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
 
 /**
- * Class OpenidealUserEventSubscriber.
+ * Openideal user general event subscriber.
  */
 class OpenidealUserEventSubscriber implements EventSubscriberInterface {
 

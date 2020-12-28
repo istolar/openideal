@@ -26,7 +26,7 @@ function idea_install() {
 
   // Force set the administerusersbyrole configuration in fact
   // the module change it during installation of profile.
-  // @Todo: Further investigation.
+  // @todo Further investigation.
   \Drupal::configFactory()->getEditable('administerusersbyrole.settings')->set('roles', ['manager' => 'safe'])->save();
 
   // To avoid issues with importing of configurations set system.site
@@ -36,4 +36,22 @@ function idea_install() {
     ->set('slogan', 'Ideas, challenges, news')
     ->set('page', ['front' => '/home'])
     ->save();
+}
+
+/**
+ * Configuration update.
+ */
+function idea_update_8001() {
+  if (!\Drupal::moduleHandler()->moduleExists('update_helper')) {
+    \Drupal::service('module_installer')->install(['update_helper']);
+  }
+
+  /** @var \Drupal\update_helper\Updater $updateHelper */
+  $updateHelper = \Drupal::service('update_helper.updater');
+
+  // Execute configuration update definitions with logging of success.
+  $updateHelper->executeUpdate('idea', 'idea_update_8001');
+
+  // Output logged messages to related channel of update execution.
+  return $updateHelper->logger()->output();
 }
