@@ -296,7 +296,7 @@
    *   and logic to hide/show replies.
    */
   Drupal.behaviors.openidealThemeCommentsReply = {
-    attach: function (context, settings) {
+    attach: function (context) {
       $('.comments--thread', context).once('openideal_theme_comments_last_child').each(function () {
         var $this = $(this);
 
@@ -306,10 +306,10 @@
           // If the comment has not children then don't need to show border.
           var $current = $($comments[$i]);
           if ($current.is(':visible')) {
-            $($current).addClass('comments--thread__border-none')
+            $($current).addClass('comments--thread__border-none');
             break;
           } else {
-            $current.addClass('comments--thread__border-none')
+            $current.addClass('comments--thread__border-none');
           }
         }
       });
@@ -320,7 +320,10 @@
         var main = $currentComment.siblings('.indented');
         var replies = 0;
         if (main.length > 0) {
-          replies = main.find('.single-comment').length
+          replies = main.find('.single-comment').length;
+        }
+        else {
+          $('.single-comment--open-replies', $currentComment).hide();
         }
         $this.after('<span>' + replies + Drupal.t(' replies') + '</span>');
 
@@ -330,9 +333,9 @@
             $currentComment.toggleClass('comments--thread__border-none');
           });
         }
-      })
+      });
     }
-  }
+  };
 
 }
 )(jQuery, Drupal);
