@@ -26,7 +26,7 @@ class FAQViewFormatBehaviour extends ParagraphsBehaviorBase {
    */
   public function defaultConfiguration() {
     return [
-      'default_view' => 'faqfield_accordion',
+      'default_view' => 'faqfield_anchor_list',
       'formats' => [
         'faqfield_accordion' => 'Accordion',
         'faqfield_anchor_list' => 'Anchor list',

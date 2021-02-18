@@ -1,0 +1,4 @@
+__global_actions:
+  import_configs:
+    - views.view.faq
+    - core.entity_view_display.node.faq.full
