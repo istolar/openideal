@@ -19,6 +19,8 @@ content:
     settings:
       view_mode: default
       link: ''
+      offset: 0
+      limit: 0
     third_party_settings: {  }
     region: content
   links:
