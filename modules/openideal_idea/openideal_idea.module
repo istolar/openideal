@@ -5,8 +5,10 @@
  * Contains openideal_idea.module.
  */
 
+use Drupal\content_moderation\Form\EntityModerationForm;
 use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Cache\RefinableCacheableDependencyInterface;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Session\AccountInterface;
@@ -64,6 +66,31 @@ function openideal_idea_cron() {
   foreach ($ideas as $idea) {
     $idea->save();
   }
+}
+
+/**
+ * Implements hook_entity_view().
+ *
+ * Shows the content moderation form even if idea is published.
+ */
+function openideal_idea_entity_view(array &$build, EntityInterface $entity, EntityViewDisplayInterface $display, $view_mode) {
+  /** @var \Drupal\Core\Entity\ContentEntityInterface $entity */
+  if ($entity->bundle() !== 'idea' && !\Drupal::service('content_moderation.moderation_information')->isModeratedEntity($entity)) {
+    return;
+  }
+  if (isset($entity->in_preview) && $entity->in_preview) {
+    return;
+  }
+  // If the component is not defined for this display, we have nothing to do.
+  if (!$display->getComponent('content_moderation_control')) {
+    return;
+  }
+
+  if ((!$entity->isLatestRevision() && !$entity->isLatestTranslationAffectedRevision()) || !$entity->isPublished()) {
+    return;
+  }
+
+  $build['content_moderation_control'] = \Drupal::formBuilder()->getForm(EntityModerationForm::class, $entity);
 }
 
 /**
