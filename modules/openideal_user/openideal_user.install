@@ -16,7 +16,7 @@ function openideal_user_update_8001() {
 }
 
 /**
- * Implements hook_update_N().
+ * Configuration update.
  */
 function openideal_user_update_8002() {
   user_role_revoke_permissions('manager', ['display eu cookie compliance popup']);
@@ -44,4 +44,23 @@ function openideal_user_update_8002() {
       'view users with role manager',
     ]
   );
+
+  /** @var \Drupal\update_helper\Updater $updateHelper */
+  $updateHelper = \Drupal::service('update_helper.updater');
+
+  // Execute configuration update definitions with logging of success.
+  $updateHelper->executeUpdate('openideal_user', 'openideal_user_update_8002');
+
+  // Change image style for user author view mode picture.
+  $config = \Drupal::configFactory()->getEditable('core.entity_view_display.user.user.author');
+  $path = 'third_party_settings.layout_builder.sections.0.components.905abf77-399a-4a9b-826a-2cf21309bbe5.configuration.formatter.settings.image_style';
+  $value = $config->get($path);
+  if (isset($value)) {
+    $config->set($path, 'compact_user_icon');
+    $config->save();
+  }
+
+  // Output logged messages to related channel of update execution.
+  return $updateHelper->logger()->output();
 }
+
