@@ -1,0 +1,70 @@
+uuid: 4e56c60d-da34-4bd3-875c-81c3c1438aa2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.faq.field_faq_items
+    - node.type.faq
+  module:
+    - entity_reference_revisions
+    - layout_builder
+    - user
+  theme:
+    - bootstrap_barrio
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: barrio_cardbasic
+        layout_settings:
+          label: ''
+          layout_builder_styles_style: {  }
+        components:
+          3e994940-2ec9-4210-ade4-8223ee5b093a:
+            uuid: 3e994940-2ec9-4210-ade4-8223ee5b093a
+            region: first
+            configuration:
+              id: 'field_block:node:faq:field_faq_items'
+              label: 'FAQ Items'
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_revisions_entity_view
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+_core:
+  default_config_hash: _5i7eIjJ5gJ6G5bSE2xsIJD_xYRYn4HkKBeKB8gOguY
+id: node.faq.full
+targetEntityType: node
+bundle: faq
+mode: full
+content:
+  field_faq_items:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+      offset: 0
+      limit: 0
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
